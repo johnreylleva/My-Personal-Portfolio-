@@ -1,4 +1,4 @@
-
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -309,7 +309,7 @@
 <body>
 <div class="container">
   <div class="inner-content">
-    <!-- PROFILE SECTION: Name + Title + 2x2 picture (using image from GitHub) -->
+    <!-- PROFILE SECTION: Name + Title + 2x2 picture -->
     <header class="profile-section">
       <div class="profile-inner">
         <!-- 2x2 picture: using your image directly from GitHub repository -->
@@ -359,7 +359,7 @@
       </div>
     </section>
 
-    <!-- SKILLS & PROGRAMMING LANGUAGES (keeping the original structure) -->
+    <!-- SKILLS & PROGRAMMING LANGUAGES -->
     <section>
       <h2 class="section-title"><i class="fas fa-laptop-code"></i> Skills & Programming Languages</h2>
       <div class="skills-container">
@@ -378,19 +378,19 @@
       </div>
     </section>
 
-    <!-- INSPIRATION section: updated to Pokémon Emerald and its creator -->
+    <!-- INSPIRATION section: Pokémon Emerald and Satoshi Tajiri -->
     <section>
       <h2 class="section-title"><i class="fas fa-leaf" style="color:#2c7ab1;"></i> Inspiration</h2>
       <div class="inspiration-block">
         <p>My journey in game development is deeply inspired by <strong>Pokémon Emerald Green</strong> — a game that shaped my childhood and ignited my curiosity for interactive storytelling. 
         The creator behind the Pokémon franchise, <strong>Satoshi Tajiri</strong>, envisioned a world where creatures and humans connect through adventure and friendship. 
         Seeing how a simple idea evolved into a global phenomenon taught me that great games are born from passion and attention to detail. 
-        Tajiri’s dedication to building immersive worlds motivates me to not only write functional code but to craft experiences that evoke wonder and joy. 
+        Tajiri's dedication to building immersive worlds motivates me to not only write functional code but to craft experiences that evoke wonder and joy. 
         As an aspiring game developer, I aim to bring the same level of heart, depth, and creativity into every project I build — turning pixels into memories.</p>
       </div>
     </section>
 
-    <!-- FOOTER with updated name -->
+    <!-- FOOTER -->
     <footer class="footer-note">
       <p>© 2026 John Rey Villanueva Lleva | HCI101 Final Project</p>
     </footer>
