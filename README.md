@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
   <title>John Rey Lleva | Aspiring Game Developer</title>
-  <!-- Google Fonts + Font Awesome -->
+  
   <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,500;14..32,600;14..32,700;14..32,800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
   <style>
@@ -13,7 +13,6 @@
       padding: 0;
       box-sizing: border-box;
     }
-
     body {
       font-family: 'Inter', sans-serif;
       background: linear-gradient(145deg, #f0f4fc 0%, #e8eff9 100%);
@@ -21,8 +20,6 @@
       line-height: 1.5;
       padding: 2rem 1.5rem;
     }
-
-    /* main container – clean card */
     .container {
       max-width: 1050px;
       margin: 0 auto;
@@ -32,28 +29,21 @@
       overflow: hidden;
       transition: all 0.2s ease;
     }
-
-    /* inner spacing */
     .inner-content {
       padding: 2rem 2.2rem 1.8rem 2.2rem;
     }
-
-    /* ========== PROFILE SECTION ========== */
     .profile-section {
       margin-bottom: 2rem;
       border-bottom: 2px solid #eef2f8;
       padding-bottom: 1.6rem;
     }
-
-    .profile-inner {
+  .profile-inner {
       display: flex;
       align-items: center;
       gap: 2rem;
       flex-wrap: wrap;
       justify-content: center;
     }
-
-    /* 2x2 picture wrapper – formal, crisp */
     .profile-img-wrapper {
       flex-shrink: 0;
       width: 150px;
@@ -68,23 +58,19 @@
       outline: 1px solid #d4e0ec;
       transition: transform 0.2s;
     }
-
     .profile-img-wrapper:hover {
       transform: scale(1.02);
     }
-
-    .profile-img {
+  .profile-img {
       width: 150px;
       height: 150px;
       object-fit: cover;
       border-radius: 50%;
       display: block;
     }
-
-    .profile-info {
+     .profile-info {
       text-align: left;
     }
-
     .full-name {
       font-size: 2.1rem;
       font-weight: 800;
@@ -95,7 +81,6 @@
       color: transparent;
       margin-bottom: 0.5rem;
     }
-
     .title-tag {
       font-size: 1.2rem;
       font-weight: 600;
@@ -108,8 +93,6 @@
       border-radius: 60px;
       backdrop-filter: blur(2px);
     }
-
-    /* section headings – modern blue accent */
     .section-title {
       font-size: 1.65rem;
       font-weight: 700;
@@ -121,17 +104,13 @@
       border-left: 5px solid #2c7ab1;
       padding-left: 1rem;
     }
-
     .section-title:first-of-type {
       margin-top: 0;
     }
-
     .section-title i {
       color: #2c7ab1;
       font-size: 1.5rem;
     }
-
-    /* about me paragraph – soft blueish background */
     .about-text {
       background: #f6faff;
       padding: 1.3rem 1.8rem;
@@ -142,8 +121,6 @@
       border: 1px solid #e6edf8;
       transition: all 0.2s;
     }
-
-    /* Personal info – elegant table style */
     .personal-card {
       background: #f6faff;
       border-radius: 1.5rem;
@@ -151,45 +128,36 @@
       border: 1px solid #e6edf8;
       overflow-x: auto;
     }
-
     .info-table {
       width: 100%;
       border-collapse: collapse;
     }
-
     .info-table tr {
       border-bottom: 1px solid #e2ebf5;
     }
-
     .info-table tr:last-child {
       border-bottom: none;
     }
-
     .info-table td {
       padding: 1rem 1.3rem;
       font-size: 0.98rem;
     }
-
     .info-table td:first-child {
       font-weight: 700;
       color: #1f6392;
       width: 160px;
       letter-spacing: -0.2px;
     }
-
     .info-table td:last-child {
       color: #1e3a4d;
       font-weight: 500;
     }
-
-    /* skills – clean list with subtle blue */
     .skills-container {
       background: #f6faff;
       border-radius: 1.5rem;
       padding: 1.3rem 1.8rem;
       border: 1px solid #e6edf8;
     }
-
     .skill-item {
       display: flex;
       flex-wrap: wrap;
@@ -197,11 +165,9 @@
       padding: 0.8rem 0;
       border-bottom: 1px solid #e4edf7;
     }
-
     .skill-item:last-child {
       border-bottom: none;
     }
-
     .skill-name {
       font-weight: 700;
       color: #1e4a6e;
@@ -209,13 +175,10 @@
       flex-shrink: 0;
       font-size: 1rem;
     }
-
     .skill-level {
       color: #2c607e;
       font-weight: 500;
     }
-
-    /* inspiration block – blue border left, with tiny emerald accent */
     .inspiration-block {
       background: #f0f7fe;
       padding: 1.6rem 2rem;
@@ -228,8 +191,6 @@
       transition: all 0.2s;
       box-shadow: 0 2px 5px rgba(0,0,0,0.02);
     }
-
-    /* footer */
     .footer-note {
       text-align: center;
       margin-top: 2.5rem;
@@ -239,8 +200,6 @@
       color: #6f8eaa;
       font-weight: 500;
     }
-
-    /* responsive */
     @media (max-width: 720px) {
       .inner-content {
         padding: 1.5rem;
@@ -266,8 +225,6 @@
         font-size: 1.45rem;
       }
     }
-
-    @media (max-width: 550px) {
       .info-table, .info-table tbody, .info-table tr, .info-table td {
         display: block;
       }
@@ -296,9 +253,7 @@
       .skill-name {
         width: auto;
       }
-    }
-
-    /* hover effect on cards */
+    }q
     .about-text:hover, .personal-card:hover, .skills-container:hover, .inspiration-block:hover {
       background: #ffffff;
       border-color: #cfdff0;
@@ -309,10 +264,8 @@
 <body>
 <div class="container">
   <div class="inner-content">
-    <!-- PROFILE SECTION: Name + Title + 2x2 picture -->
     <header class="profile-section">
       <div class="profile-inner">
-        <!-- 2x2 picture: using your image directly from GitHub repository -->
         <div class="profile-img-wrapper">
           <img src="https://raw.githubusercontent.com/johnreylleva/My-Personal-Portfolio-/2f174e027b00b69b3361034550f1dc85b2e42e3b/1776307235967.png" alt="2x2 formal photo of John Rey Villanueva Lleva" class="profile-img">
         </div>
@@ -322,8 +275,6 @@
         </div>
       </div>
     </header>
-
-    <!-- ABOUT ME section: revised, personal and professional -->
     <section>
       <h2 class="section-title"><i class="fas fa-user-astronaut"></i> About Me</h2>
       <div class="about-text">
@@ -333,8 +284,6 @@
         craftsmanship and backend problem-solving, turning innovative ideas into meaningful, real-world solutions.
       </div>
     </section>
-
-    <!-- PERSONAL DETAILS section (updated: Guiset, email, age, name) -->
     <section>
       <h2 class="section-title"><i class="fas fa-id-card"></i> Personal Information</h2>
       <div class="personal-card">
@@ -358,8 +307,6 @@
          </table>
       </div>
     </section>
-
-    <!-- SKILLS & PROGRAMMING LANGUAGES -->
     <section>
       <h2 class="section-title"><i class="fas fa-laptop-code"></i> Skills & Programming Languages</h2>
       <div class="skills-container">
@@ -377,8 +324,6 @@
         </div>
       </div>
     </section>
-
-    <!-- INSPIRATION section: Pokémon Emerald and Satoshi Tajiri -->
     <section>
       <h2 class="section-title"><i class="fas fa-leaf" style="color:#2c7ab1;"></i> Inspiration</h2>
       <div class="inspiration-block">
@@ -389,8 +334,6 @@
         As an aspiring game developer, I aim to bring the same level of heart, depth, and creativity into every project I build — turning pixels into memories.</p>
       </div>
     </section>
-
-    <!-- FOOTER -->
     <footer class="footer-note">
       <p>© 2026 John Rey Villanueva Lleva | HCI101 Final Project</p>
     </footer>
