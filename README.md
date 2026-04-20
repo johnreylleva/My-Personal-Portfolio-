@@ -314,7 +314,7 @@
       <div class="profile-inner">
         <!-- 2x2 picture: replace 'profile-picture.jpg' with your actual 2x2 image file -->
         <div class="profile-img-wrapper">
-          <img src="profile-picture.jpg" alt="2x2 formal photo of John Rey Villanueva Lleva" class="profile-img">
+          <img src="[profile-picture.jpg](https://github.com/johnreylleva/My-Personal-Portfolio-/blob/2f174e027b00b69b3361034550f1dc85b2e42e3b/1776307235967.png)" alt="2x2 formal photo of John Rey Villanueva Lleva" class="profile-img">
         </div>
         <div class="profile-info">
           <h1 class="full-name">John Rey Villanueva Lleva</h1>
