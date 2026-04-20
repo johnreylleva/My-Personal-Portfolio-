@@ -4,13 +4,11 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
-  <title>Prince Alfie Solomon | Aspiring Game Developer</title>
-  <!-- Google Fonts for clean typography -->
-  <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,500;14..32,600;14..32,700&display=swap" rel="stylesheet">
-  <!-- Font Awesome 6 (free icons) for subtle accents -->
+  <title>John Rey Lleva | Aspiring Game Developer</title>
+  <!-- Google Fonts + Font Awesome -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,500;14..32,600;14..32,700;14..32,800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
   <style>
-    /* RESET & BASE */
     * {
       margin: 0;
       padding: 0;
@@ -19,27 +17,33 @@
 
     body {
       font-family: 'Inter', sans-serif;
-      background: #f5f7fb;
+      background: linear-gradient(145deg, #f0f4fc 0%, #e8eff9 100%);
       color: #1a2c3e;
       line-height: 1.5;
       padding: 2rem 1.5rem;
     }
 
+    /* main container – clean card */
     .container {
-      max-width: 1000px;
+      max-width: 1050px;
       margin: 0 auto;
       background: #ffffff;
-      border-radius: 28px;
-      box-shadow: 0 20px 35px -12px rgba(0, 0, 0, 0.08);
+      border-radius: 2rem;
+      box-shadow: 0 25px 45px -12px rgba(0, 0, 0, 0.15);
       overflow: hidden;
-      padding: 2rem 2rem 1.5rem 2rem;
+      transition: all 0.2s ease;
+    }
+
+    /* inner spacing */
+    .inner-content {
+      padding: 2rem 2.2rem 1.8rem 2.2rem;
     }
 
     /* ========== PROFILE SECTION ========== */
     .profile-section {
-      margin-bottom: 2.2rem;
-      border-bottom: 2px solid #eef2f7;
-      padding-bottom: 1.8rem;
+      margin-bottom: 2rem;
+      border-bottom: 2px solid #eef2f8;
+      padding-bottom: 1.6rem;
     }
 
     .profile-inner {
@@ -50,18 +54,24 @@
       justify-content: center;
     }
 
+    /* 2x2 picture wrapper – formal, crisp */
     .profile-img-wrapper {
       flex-shrink: 0;
       width: 150px;
       height: 150px;
+      background: #f0f5fc;
       border-radius: 50%;
-      background: #eef2f7;
       display: flex;
       align-items: center;
       justify-content: center;
-      box-shadow: 0 8px 18px rgba(0, 0, 0, 0.05);
+      box-shadow: 0 12px 22px -8px rgba(0, 0, 0, 0.1);
       border: 3px solid white;
-      outline: 1px solid #e0e8f0;
+      outline: 1px solid #d4e0ec;
+      transition: transform 0.2s;
+    }
+
+    .profile-img-wrapper:hover {
+      transform: scale(1.02);
     }
 
     .profile-img {
@@ -77,34 +87,40 @@
     }
 
     .full-name {
-      font-size: 2rem;
-      font-weight: 700;
+      font-size: 2.1rem;
+      font-weight: 800;
       letter-spacing: -0.02em;
-      color: #0a2b3e;
-      margin-bottom: 0.4rem;
+      background: linear-gradient(135deg, #1a4970, #2c6e9e);
+      background-clip: text;
+      -webkit-background-clip: text;
+      color: transparent;
+      margin-bottom: 0.5rem;
     }
 
     .title-tag {
       font-size: 1.2rem;
-      font-weight: 500;
+      font-weight: 600;
       color: #2c6e9e;
       background: #eef3fc;
-      display: inline-block;
-      padding: 0.3rem 1rem;
-      border-radius: 40px;
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      padding: 0.4rem 1.2rem;
+      border-radius: 60px;
+      backdrop-filter: blur(2px);
     }
 
-    /* Section headings */
+    /* section headings – modern blue accent */
     .section-title {
-      font-size: 1.6rem;
-      font-weight: 600;
-      margin: 1.8rem 0 1rem 0;
-      color: #1e4663;
-      border-left: 5px solid #2c7ab1;
-      padding-left: 1rem;
+      font-size: 1.65rem;
+      font-weight: 700;
+      margin: 2rem 0 1rem 0;
+      color: #1a4c6e;
       display: flex;
       align-items: center;
-      gap: 10px;
+      gap: 12px;
+      border-left: 5px solid #2c7ab1;
+      padding-left: 1rem;
     }
 
     .section-title:first-of-type {
@@ -116,111 +132,118 @@
       font-size: 1.5rem;
     }
 
-    /* About me paragraph */
+    /* about me paragraph – soft blueish background */
     .about-text {
+      background: #f6faff;
+      padding: 1.3rem 1.8rem;
+      border-radius: 1.5rem;
       font-size: 1rem;
-      color: #2c3f4f;
       line-height: 1.65;
-      background: #f9fbfd;
-      padding: 1.2rem 1.5rem;
-      border-radius: 20px;
-      margin-top: 0.2rem;
+      color: #1f3e54;
+      border: 1px solid #e6edf8;
+      transition: all 0.2s;
     }
 
-    /* PERSONAL DETAILS — Table style (clean and aligned) */
-    .personal-table-wrapper {
-      background: #f9fbfd;
-      border-radius: 20px;
+    /* Personal info – elegant table style */
+    .personal-card {
+      background: #f6faff;
+      border-radius: 1.5rem;
       padding: 0.2rem;
+      border: 1px solid #e6edf8;
       overflow-x: auto;
     }
 
-    .personal-table {
+    .info-table {
       width: 100%;
       border-collapse: collapse;
-      background: #f9fbfd;
-      border-radius: 18px;
     }
 
-    .personal-table td {
-      padding: 1rem 1.2rem;
-      border-bottom: 1px solid #e6edf4;
-      font-size: 0.98rem;
+    .info-table tr {
+      border-bottom: 1px solid #e2ebf5;
     }
 
-    .personal-table tr:last-child td {
+    .info-table tr:last-child {
       border-bottom: none;
     }
 
-    .personal-table td:first-child {
+    .info-table td {
+      padding: 1rem 1.3rem;
+      font-size: 0.98rem;
+    }
+
+    .info-table td:first-child {
       font-weight: 700;
       color: #1f6392;
-      width: 150px;
+      width: 160px;
       letter-spacing: -0.2px;
     }
 
-    .personal-table td:last-child {
-      color: #1e2f3c;
+    .info-table td:last-child {
+      color: #1e3a4d;
       font-weight: 500;
     }
 
-    /* Skills section (list style with levels) */
-    .skills-list {
-      background: #f9fbfd;
-      border-radius: 20px;
-      padding: 1.2rem 1.8rem;
-      list-style: none;
+    /* skills – clean list with subtle blue */
+    .skills-container {
+      background: #f6faff;
+      border-radius: 1.5rem;
+      padding: 1.3rem 1.8rem;
+      border: 1px solid #e6edf8;
     }
 
-    .skills-list li {
-      padding: 0.7rem 0;
-      border-bottom: 1px solid #e6edf4;
+    .skill-item {
       display: flex;
       flex-wrap: wrap;
       align-items: baseline;
-      font-size: 1rem;
+      padding: 0.8rem 0;
+      border-bottom: 1px solid #e4edf7;
     }
 
-    .skills-list li:last-child {
+    .skill-item:last-child {
       border-bottom: none;
     }
 
     .skill-name {
       font-weight: 700;
-      color: #1e4663;
+      color: #1e4a6e;
       width: 130px;
       flex-shrink: 0;
-    }
-
-    .skill-desc {
-      color: #2c4e6e;
-    }
-
-    /* Inspiration section */
-    .inspiration-card {
-      background: #f0f6fe;
-      padding: 1.5rem 2rem;
-      border-radius: 20px;
-      margin-top: 0.3rem;
-      border-left: 4px solid #2c7ab1;
       font-size: 1rem;
-      line-height: 1.65;
-      color: #1c405b;
     }
 
-    /* Footer */
-    .portfolio-footer {
+    .skill-level {
+      color: #2c607e;
+      font-weight: 500;
+    }
+
+    /* inspiration block – blue border left, with tiny emerald accent */
+    .inspiration-block {
+      background: #f0f7fe;
+      padding: 1.6rem 2rem;
+      border-radius: 1.5rem;
+      margin-top: 0.3rem;
+      border-left: 6px solid #2c7ab1;
+      font-size: 1rem;
+      line-height: 1.68;
+      color: #1c405b;
+      transition: all 0.2s;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.02);
+    }
+
+    /* footer */
+    .footer-note {
       text-align: center;
       margin-top: 2.5rem;
-      padding-top: 1.2rem;
+      padding-top: 1.3rem;
       border-top: 1px solid #e2edf5;
       font-size: 0.85rem;
-      color: #6a8aaa;
+      color: #6f8eaa;
+      font-weight: 500;
     }
 
-    /* Responsive adjustments */
-    @media (max-width: 700px) {
-      .container {
+    /* responsive */
+    @media (max-width: 720px) {
+      .inner-content {
         padding: 1.5rem;
       }
       .profile-inner {
@@ -233,133 +256,146 @@
       .full-name {
         font-size: 1.7rem;
       }
-      .personal-table td:first-child {
-        width: 120px;
-      }
-      .personal-table td {
-        padding: 0.8rem 0.8rem;
+      .info-table td {
+        padding: 0.8rem 1rem;
         display: table-cell;
       }
       .skill-name {
         width: 110px;
       }
       .section-title {
-        font-size: 1.4rem;
+        font-size: 1.45rem;
       }
     }
 
     @media (max-width: 550px) {
-      .personal-table, .personal-table tbody, .personal-table tr, .personal-table td {
+      .info-table, .info-table tbody, .info-table tr, .info-table td {
         display: block;
       }
-      .personal-table tr {
-        margin-bottom: 0.5rem;
+      .info-table tr {
+        display: block;
+        margin-bottom: 0.6rem;
         border-bottom: 1px solid #e0e8f0;
-        display: block;
       }
-      .personal-table td {
+      .info-table td {
         display: flex;
         justify-content: space-between;
         align-items: center;
         border-bottom: none;
-        padding: 0.6rem 0.8rem;
+        padding: 0.7rem 0.8rem;
       }
-      .personal-table td:first-child {
+      .info-table td:first-child {
         width: auto;
-        font-weight: 700;
       }
-      .personal-table td:last-child {
+      .info-table td:last-child {
         text-align: right;
       }
+      .skill-item {
+        flex-direction: column;
+        gap: 0.2rem;
+      }
+      .skill-name {
+        width: auto;
+      }
+    }
+
+    /* hover effect on cards */
+    .about-text:hover, .personal-card:hover, .skills-container:hover, .inspiration-block:hover {
+      background: #ffffff;
+      border-color: #cfdff0;
+      transition: 0.2s;
     }
   </style>
 </head>
 <body>
 <div class="container">
-  <!-- SECTION 1: PROFILE (Name, Title, 2x2 Picture) -->
-  <header class="profile-section">
-    <div class="profile-inner">
-      <!-- 2x2 Picture: use your own file named "profile-picture.jpg" or change src -->
-      <div class="profile-img-wrapper">
-        <img src="profile-picture.jpg" alt="2x2 photo of Prince Alfie Solomon, aspiring game developer" class="profile-img">
+  <div class="inner-content">
+    <!-- PROFILE SECTION: Name + Title + 2x2 picture -->
+    <header class="profile-section">
+      <div class="profile-inner">
+        <!-- 2x2 picture: replace 'profile-picture.jpg' with your actual 2x2 image file -->
+        <div class="profile-img-wrapper">
+          <img src="profile-picture.jpg" alt="2x2 formal photo of John Rey Villanueva Lleva" class="profile-img">
+        </div>
+        <div class="profile-info">
+          <h1 class="full-name">John Rey Villanueva Lleva</h1>
+          <p class="title-tag"><i class="fas fa-gamepad"></i> ASPIRING GAME DEVELOPER</p>
+        </div>
       </div>
-      <div class="profile-info">
-        <h1 class="full-name">Prince Alfie Fernando Solomon</h1>
-        <p class="title-tag"><i class="fas fa-gamepad"></i> Aspiring Game Developer</p>
+    </header>
+
+    <!-- ABOUT ME section: revised, personal and professional -->
+    <section>
+      <h2 class="section-title"><i class="fas fa-user-astronaut"></i> About Me</h2>
+      <div class="about-text">
+        I am a dedicated first-year BSIT student at <strong>Our Lady of the Sacred Heart College of Guimba</strong>, deeply passionate about technology and how it shapes the future. 
+        My curiosity drives me to explore the intersection of logic, creativity, and user experience — from coding interactive applications to designing seamless digital interfaces. 
+        I believe that software should not only function flawlessly but also inspire and empower its users. As I progress in my IT journey, I strive to master both front-end 
+        craftsmanship and backend problem-solving, turning innovative ideas into meaningful, real-world solutions.
       </div>
-    </div>
-  </header>
+    </section>
 
-  <!-- SECTION 2: ABOUT ME (course, school, interest in technology) -->
-  <section>
-    <h2 class="section-title"><i class="fas fa-user-astronaut"></i> About Me</h2>
-    <p class="about-text">
-      I am a first-year BSIT student at <strong>Our Lady of the Sacred Heart College of Guimba</strong>, with a growing passion for technology and continuous learning. 
-      I'm especially interested in how software is built and how it can improve everyday tasks, making systems more efficient and user-friendly. 
-      I enjoy exploring how logic and design work together — whether it's coding, designing interfaces, or understanding how users interact with a system. 
-      As I continue learning, I focus on improving my skills and turning ideas into practical and functional solutions.
-    </p>
-  </section>
+    <!-- PERSONAL DETAILS section (updated: Guiset, email, age, name) -->
+    <section>
+      <h2 class="section-title"><i class="fas fa-id-card"></i> Personal Information</h2>
+      <div class="personal-card">
+        <table class="info-table">
+          <tr>
+            <td><i class="fas fa-user-circle" style="margin-right: 8px; color:#2c7ab1;"></i> FULL NAME</td>
+            <td>John Rey Villanueva Lleva</td>
+          </tr>
+          <tr>
+            <td><i class="fas fa-calendar-alt" style="margin-right: 8px; color:#2c7ab1;"></i> AGE</td>
+            <td>18 Years Old</td>
+          </tr>
+          <tr>
+            <td><i class="fas fa-envelope" style="margin-right: 8px; color:#2c7ab1;"></i> EMAIL ADDRESS</td>
+            <td>johnreylleva22@gmail.com</td>
+          </tr>
+          <tr>
+            <td><i class="fas fa-map-marker-alt" style="margin-right: 8px; color:#2c7ab1;"></i> ADDRESS</td>
+            <td>Guiset, Guimba, Nueva Ecija</td>
+          </tr>
+        </table>
+      </div>
+    </section>
 
-  <!-- SECTION 3: PERSONAL DETAILS (table format, clean & aligned) -->
-  <section>
-    <h2 class="section-title"><i class="fas fa-id-card"></i> Personal Details</h2>
-    <div class="personal-table-wrapper">
-      <table class="personal-table">
-        <tr>
-          <td><i class="fas fa-user-circle" style="margin-right: 8px; color:#2c7ab1;"></i> FULL NAME</td>
-          <td>Prince Alfie Fernando Solomon</td>
-        </tr>
-        <tr>
-          <td><i class="fas fa-calendar-alt" style="margin-right: 8px; color:#2c7ab1;"></i> AGE</td>
-          <td>21 Years Old</td>
-        </tr>
-        <tr>
-          <td><i class="fas fa-envelope" style="margin-right: 8px; color:#2c7ab1;"></i> EMAIL ADDRESS</td>
-          <td>palfiesolomon@gmail.com</td>
-        </tr>
-        <tr>
-          <td><i class="fas fa-map-marker-alt" style="margin-right: 8px; color:#2c7ab1;"></i> ADDRESS</td>
-          <td>Bacayao Guimba, Nueva Ecija</td>
-        </tr>
-      </table>
-    </div>
-  </section>
+    <!-- SKILLS & PROGRAMMING LANGUAGES (keeping the original structure) -->
+    <section>
+      <h2 class="section-title"><i class="fas fa-laptop-code"></i> Skills & Programming Languages</h2>
+      <div class="skills-container">
+        <div class="skill-item">
+          <span class="skill-name"><i class="fab fa-java" style="margin-right: 8px;"></i> Java:</span>
+          <span class="skill-level">Beginner (Developing system logic and UI)</span>
+        </div>
+        <div class="skill-item">
+          <span class="skill-name"><i class="fab fa-python" style="margin-right: 8px;"></i> Python:</span>
+          <span class="skill-level">Beginner</span>
+        </div>
+        <div class="skill-item">
+          <span class="skill-name"><i class="fab fa-html5" style="margin-right: 8px;"></i> HTML & CSS:</span>
+          <span class="skill-level">Mid (Intermediate proficiency, responsive design)</span>
+        </div>
+      </div>
+    </section>
 
-  <!-- SECTION 4: SKILLS / PROGRAMMING LANGUAGES (with levels) -->
-  <section>
-    <h2 class="section-title"><i class="fas fa-laptop-code"></i> Skills & Programming Languages</h2>
-    <ul class="skills-list">
-      <li>
-        <span class="skill-name">Java:</span>
-        <span class="skill-desc">Beginner (Developing system logic and UI)</span>
-      </li>
-      <li>
-        <span class="skill-name">Python:</span>
-        <span class="skill-desc">Beginner</span>
-      </li>
-      <li>
-        <span class="skill-name">HTML & CSS:</span>
-        <span class="skill-desc">Mid (Intermediate proficiency)</span>
-      </li>
-    </ul>
-  </section>
+    <!-- INSPIRATION section: updated to Pokémon Emerald and its creator -->
+    <section>
+      <h2 class="section-title"><i class="fas fa-leaf" style="color:#2c7ab1;"></i> Inspiration</h2>
+      <div class="inspiration-block">
+        <p>My journey in game development is deeply inspired by <strong>Pokémon Emerald Green</strong> — a game that shaped my childhood and ignited my curiosity for interactive storytelling. 
+        The creator behind the Pokémon franchise, <strong>Satoshi Tajiri</strong>, envisioned a world where creatures and humans connect through adventure and friendship. 
+        Seeing how a simple idea evolved into a global phenomenon taught me that great games are born from passion and attention to detail. 
+        Tajiri’s dedication to building immersive worlds motivates me to not only write functional code but to craft experiences that evoke wonder and joy. 
+        As an aspiring game developer, I aim to bring the same level of heart, depth, and creativity into every project I build — turning pixels into memories.</p>
+      </div>
+    </section>
 
-  <!-- SECTION 5: INSPIRATION AS A PROGRAMMER -->
-  <section>
-    <h2 class="section-title"><i class="fas fa-lightbulb"></i> Inspiration</h2>
-    <div class="inspiration-card">
-      <p>My journey in IT is inspired by the story of <strong>Eric Barone</strong>, the creator of Stardew Valley. 
-      Seeing how one person could build an entire world — handling the code, the art, and the music — completely changed how I view what's possible in software development. 
-      I'm driven by that same mindset. As an aspiring game developer, I don't just want to write code; I want to understand how logic and creativity work together to create meaningful experiences. 
-      Barone's dedication motivates me to keep improving my skills and reminds me that with persistence, even a single developer can create something that connects with millions.</p>
-    </div>
-  </section>
-
-  <!-- FOOTER with copyright and HCI101 reference -->
-  <footer class="portfolio-footer">
-    <p>© 2026 Prince Alfie Solomon | HCI101 Final Project</p>
-  </footer>
+    <!-- FOOTER with updated name -->
+    <footer class="footer-note">
+      <p>© 2026 John Rey Villanueva Lleva | HCI101 Final Project</p>
+    </footer>
+  </div>
 </div>
 </body>
 </html>
