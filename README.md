@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -278,10 +277,10 @@
     <section>
       <h2 class="section-title"><i class="fas fa-user-astronaut"></i> About Me</h2>
       <div class="about-text">
-        I am a dedicated first-year BSIT student at <strong>Our Lady of the Sacred Heart College of Guimba</strong>, deeply passionate about technology and how it shapes the future. 
-        My curiosity drives me to explore the intersection of logic, creativity, and user experience — from coding interactive applications to designing seamless digital interfaces. 
-        I believe that software should not only function flawlessly but also inspire and empower its users. As I progress in my IT journey, I strive to master both front-end 
-        craftsmanship and backend problem-solving, turning innovative ideas into meaningful, real-world solutions.
+        I am a dedicated first year BSIT student at <strong> Our Lady of the Sacred Heart College of Guimba</strong>, deeply passionate about technology and how it shapes the future. 
+        My curiosity drives me to explore the intersection of logic, creativity, and user experience from coding interactive applications to designing seamless digital interfaces. 
+        I believe that software should not only function flawlessly but also inspire and empower its users. As I progress in my IT journey, I strive to master both front end 
+        craftsmanship and backend problem-solving, turning innovative ideas into meaningful, real world solutions.
       </div>
     </section>
     <section>
@@ -327,11 +326,11 @@
     <section>
       <h2 class="section-title"><i class="fas fa-leaf" style="color:#2c7ab1;"></i> Inspiration</h2>
       <div class="inspiration-block">
-        <p>My journey in game development is deeply inspired by <strong>Pokémon Emerald Green</strong> — a game that shaped my childhood and ignited my curiosity for interactive storytelling. 
+        <p>My journey in game development is deeply inspired by <strong>Pokémon Emerald Green</strong> a game that shaped my childhood and ignited my curiosity for interactive storytelling. 
         The creator behind the Pokémon franchise, <strong>Satoshi Tajiri</strong>, envisioned a world where creatures and humans connect through adventure and friendship. 
         Seeing how a simple idea evolved into a global phenomenon taught me that great games are born from passion and attention to detail. 
         Tajiri's dedication to building immersive worlds motivates me to not only write functional code but to craft experiences that evoke wonder and joy. 
-        As an aspiring game developer, I aim to bring the same level of heart, depth, and creativity into every project I build — turning pixels into memories.</p>
+        As an aspiring game developer, I aim to bring the same level of heart, depth, and creativity into every project I build turning pixels into memories.</p>
       </div>
     </section>
     <footer class="footer-note">
