@@ -309,12 +309,12 @@
 <body>
 <div class="container">
   <div class="inner-content">
-    <!-- PROFILE SECTION: Name + Title + 2x2 picture -->
+    <!-- PROFILE SECTION: Name + Title + 2x2 picture (using image from GitHub) -->
     <header class="profile-section">
       <div class="profile-inner">
-        <!-- 2x2 picture: replace 'profile-picture.jpg' with your actual 2x2 image file -->
+        <!-- 2x2 picture: using your image directly from GitHub repository -->
         <div class="profile-img-wrapper">
-          <img src="1776307235967.pnj" alt="2x2 formal photo of John Rey Villanueva Lleva" class="profile-img">
+          <img src="https://raw.githubusercontent.com/johnreylleva/My-Personal-Portfolio-/2f174e027b00b69b3361034550f1dc85b2e42e3b/1776307235967.png" alt="2x2 formal photo of John Rey Villanueva Lleva" class="profile-img">
         </div>
         <div class="profile-info">
           <h1 class="full-name">John Rey Villanueva Lleva</h1>
@@ -342,20 +342,20 @@
           <tr>
             <td><i class="fas fa-user-circle" style="margin-right: 8px; color:#2c7ab1;"></i> FULL NAME</td>
             <td>John Rey Villanueva Lleva</td>
-          </tr>
-          <tr>
+           </tr>
+           <tr>
             <td><i class="fas fa-calendar-alt" style="margin-right: 8px; color:#2c7ab1;"></i> AGE</td>
             <td>18 Years Old</td>
-          </tr>
-          <tr>
+           </tr>
+           <tr>
             <td><i class="fas fa-envelope" style="margin-right: 8px; color:#2c7ab1;"></i> EMAIL ADDRESS</td>
             <td>johnreylleva22@gmail.com</td>
-          </tr>
-          <tr>
+           </tr>
+           <tr>
             <td><i class="fas fa-map-marker-alt" style="margin-right: 8px; color:#2c7ab1;"></i> ADDRESS</td>
             <td>Guiset, Guimba, Nueva Ecija</td>
-          </tr>
-        </table>
+           </tr>
+         </table>
       </div>
     </section>
 
