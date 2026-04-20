@@ -1,5 +1,5 @@
 # My-Personal-Portfolio-
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -216,7 +216,7 @@
       font-weight: 500;
     }
 
-    /* inspiration block – blue border left, with tiny emerald accent */
+    /* inspiration block – blue border left */
     .inspiration-block {
       background: #f0f7fe;
       padding: 1.6rem 2rem;
@@ -324,7 +324,7 @@
       </div>
     </header>
 
-    <!-- ABOUT ME section: revised, personal and professional -->
+    <!-- ABOUT ME section: completely revised, personal and professional -->
     <section>
       <h2 class="section-title"><i class="fas fa-user-astronaut"></i> About Me</h2>
       <div class="about-text">
@@ -343,20 +343,20 @@
           <tr>
             <td><i class="fas fa-user-circle" style="margin-right: 8px; color:#2c7ab1;"></i> FULL NAME</td>
             <td>John Rey Villanueva Lleva</td>
-          </tr>
-          <tr>
+           </tr>
+           <tr>
             <td><i class="fas fa-calendar-alt" style="margin-right: 8px; color:#2c7ab1;"></i> AGE</td>
             <td>18 Years Old</td>
-          </tr>
-          <tr>
+           </tr>
+           <tr>
             <td><i class="fas fa-envelope" style="margin-right: 8px; color:#2c7ab1;"></i> EMAIL ADDRESS</td>
             <td>johnreylleva22@gmail.com</td>
-          </tr>
-          <tr>
+           </tr>
+           <tr>
             <td><i class="fas fa-map-marker-alt" style="margin-right: 8px; color:#2c7ab1;"></i> ADDRESS</td>
             <td>Guiset, Guimba, Nueva Ecija</td>
-          </tr>
-        </table>
+           </tr>
+         </table>
       </div>
     </section>
 
@@ -379,15 +379,14 @@
       </div>
     </section>
 
-    <!-- INSPIRATION section: updated to Pokémon Emerald and its creator -->
+    <!-- INSPIRATION section (unchanged but meaningful) -->
     <section>
-      <h2 class="section-title"><i class="fas fa-leaf" style="color:#2c7ab1;"></i> Inspiration</h2>
+      <h2 class="section-title"><i class="fas fa-lightbulb"></i> Inspiration</h2>
       <div class="inspiration-block">
-        <p>My journey in game development is deeply inspired by <strong>Pokémon Emerald Green</strong> — a game that shaped my childhood and ignited my curiosity for interactive storytelling. 
-        The creator behind the Pokémon franchise, <strong>Satoshi Tajiri</strong>, envisioned a world where creatures and humans connect through adventure and friendship. 
-        Seeing how a simple idea evolved into a global phenomenon taught me that great games are born from passion and attention to detail. 
-        Tajiri’s dedication to building immersive worlds motivates me to not only write functional code but to craft experiences that evoke wonder and joy. 
-        As an aspiring game developer, I aim to bring the same level of heart, depth, and creativity into every project I build — turning pixels into memories.</p>
+        <p>My journey in IT is inspired by the story of <strong>Eric Barone</strong>, the creator of Stardew Valley. 
+        Seeing how one person could build an entire world — handling the code, the art, and the music — completely changed how I view what's possible in software development. 
+        I'm driven by that same mindset. As an aspiring game developer, I don't just want to write code; I want to understand how logic and creativity work together to create meaningful experiences. 
+        Barone's dedication motivates me to keep improving my skills and reminds me that with persistence, even a single developer can create something that connects with millions.</p>
       </div>
     </section>
 
