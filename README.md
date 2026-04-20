@@ -1,9 +1,10 @@
-# My-Personal-Portfolio-<!DOCTYPE html>
+# My-Personal-Portfolio-
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
-  <title>Alex Rivera | Aspiring IT Professional</title>
+  <title>John Rey Lleva | Aspiring IT Professional</title>
   <!-- Google Fonts for clean typography -->
   <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,500;14..32,600;14..32,700&display=swap" rel="stylesheet">
   <!-- Font Awesome 6 (free icons) for optional subtle accents -->
@@ -18,10 +19,10 @@
       <div class="profile-inner">
         <!-- 2x2 Picture: clear, formal/semi-formal, properly positioned -->
         <div class="profile-img-wrapper">
-          <img src="profile-picture.jpg" alt="2x2 photo of Alex Rivera, future IT professional" class="profile-img">
+          <img src="profile-picture.jpg" alt="2x2 photo of John Rey Villanueva Lleva, future IT professional" class="profile-img">
         </div>
         <div class="profile-info">
-          <h1 class="full-name">Alex M. Rivera</h1>
+          <h1 class="full-name">John Rey Villanueva Lleva</h1>
           <p class="title-tag"><i class="fas fa-code"></i> Aspiring Full‑Stack Developer & IT Specialist</p>
         </div>
       </div>
@@ -44,7 +45,7 @@
       <div class="details-grid">
         <div class="detail-item">
           <span class="detail-label"><i class="fas fa-user"></i> Full Name</span>
-          <span class="detail-value">Alex M. Rivera</span>
+          <span class="detail-value">John Rey Villanueva Lleva</span>
         </div>
         <div class="detail-item">
           <span class="detail-label"><i class="fas fa-calendar-alt"></i> Age</span>
@@ -52,7 +53,7 @@
         </div>
         <div class="detail-item">
           <span class="detail-label"><i class="fas fa-envelope"></i> Email Address</span>
-          <span class="detail-value">alex.rivera@it-portfolio.com</span>
+          <span class="detail-value">johnrey.lleva@it-portfolio.com</span>
         </div>
         <div class="detail-item">
           <span class="detail-label"><i class="fas fa-map-marker-alt"></i> Address</span>
@@ -115,7 +116,7 @@
 
     <!-- subtle footer for professionalism -->
     <footer class="portfolio-footer">
-      <p>© 2025 Alex Rivera — Building tomorrow's solutions today</p>
+      <p>© 2025 John Rey Villanueva Lleva — Building tomorrow's solutions today</p>
     </footer>
   </div>
 </body>
